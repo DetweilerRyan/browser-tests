@@ -3,26 +3,14 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "tape": "~3.4.0"
-    },
-  "testling": {
-    "files": "*.js",
-    "browsers": [
-      "ie/6..latest",
-      "chrome/22..latest",
-      "firefox/16..latest",
-      "safari/latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6",
-      "android-browser/latest"
-    ]
-  },
-  "scripts": {
-    "test": "tape *.js"
+    "karma-mocha": "~0.1.10",
+    "karma-spec-reporter": "0.0.16",
+    "mocha": "~2.1.0",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-bro": "~0.11.1",
+    "karma": "~0.12.31"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,10 @@
 # browser-tests
 
-We assume that browserify and testling are installed globally:
+We assume that browserify and karma-cli are installed globally:
 
+`
 `$ npm install -g browserify
-`$ npm install -g testling
+`$ npm install -g karma-cli
+`
 
-see: https://ci.testling.com/guide/quick_start for more details
+see: https://blog.codecentric.de/en/2014/11/testing-javascript-karma-and-saucelabs/
