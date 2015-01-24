@@ -1,0 +1,36 @@
+{
+  "name": "browser-tests",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "~3.4.0"
+    },
+  "testling": {
+    "files": "*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "scripts": {
+    "test": "tape *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbdetweiler/browser-tests.git"
+  },
+  "author": "Ryan Detweiler",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/rbdetweiler/browser-tests/issues"
+  }
+}
