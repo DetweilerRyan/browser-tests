@@ -6,4 +6,5 @@ test('sanity check', function(t) {
 	t.equal(1+1,2);
 
 	t.doesNotThrow(function() { var doc = document; });
+	
 });
