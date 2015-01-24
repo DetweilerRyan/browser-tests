@@ -1,7 +1,9 @@
 var test = require('tape');
 
 test('sanity check', function(t) {
-	t.plan(1);
+	t.plan(2);
 
-	t.equal(1,34);
+	t.equal(1+1,2);
+
+	t.doesNotThrow(function() { var doc = document; });
 });
