@@ -9,11 +9,11 @@ module.exports = {
 	],
 
 	files: [
-		'*.js'
+		'test/*.js'
 	],
 
 	preprocessors: {
-		'*.js': ['browserify']
+		'test/*.js': ['browserify']
 	},
 
 	browserify: {
